@@ -1,0 +1,15 @@
+C:\Users\jakub\source\repos\MyFin\obj\Debug\MyFin.csproj.AssemblyReference.cache
+C:\Users\jakub\source\repos\MyFin\obj\Debug\MainWindow.g.cs
+C:\Users\jakub\source\repos\MyFin\obj\Debug\App.g.cs
+C:\Users\jakub\source\repos\MyFin\obj\Debug\MyFin_MarkupCompile.cache
+C:\Users\jakub\source\repos\MyFin\obj\Debug\MyFin_MarkupCompile.lref
+C:\Users\jakub\source\repos\MyFin\bin\Debug\MyFin.exe.config
+C:\Users\jakub\source\repos\MyFin\bin\Debug\MyFin.exe
+C:\Users\jakub\source\repos\MyFin\bin\Debug\MyFin.pdb
+C:\Users\jakub\source\repos\MyFin\obj\Debug\MainWindow.baml
+C:\Users\jakub\source\repos\MyFin\obj\Debug\MyFin.g.resources
+C:\Users\jakub\source\repos\MyFin\obj\Debug\MyFin.Properties.Resources.resources
+C:\Users\jakub\source\repos\MyFin\obj\Debug\MyFin.csproj.GenerateResource.cache
+C:\Users\jakub\source\repos\MyFin\obj\Debug\MyFin.csproj.CoreCompileInputs.cache
+C:\Users\jakub\source\repos\MyFin\obj\Debug\MyFin.exe
+C:\Users\jakub\source\repos\MyFin\obj\Debug\MyFin.pdb

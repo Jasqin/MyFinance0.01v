@@ -12,11 +12,11 @@
                 <Label Content="Username:" HorizontalAlignment="Left" Height="42"  Foreground="White" Margin="-6,52,0,0" VerticalAlignment="Top" Width="78" FontFamily="Microsoft Sans Serif"/>
                 <Label Content="Password:" HorizontalAlignment="Left" Height="42"  Foreground="White" Margin="-6,99,0,0" VerticalAlignment="Top" Width="78" FontFamily="Microsoft Sans Serif"/>
 
-                <TextBox x:Name="NUserName" HorizontalAlignment="Center" Height="28" Margin="0,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="278" RenderTransformOrigin="0.498,0.429" TextChanged="NUserName_TextChanged"/>
-                <TextBox x:Name="NName" HorizontalAlignment="Left" Height="28" Margin="0,19,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.498,0.429" TextChanged="NName_TextChanged"/>
-                <TextBox x:Name="NPass" HorizontalAlignment="Center" Height="28" Margin="0,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="278" TextChanged="NPass_TextChanged"/>
+                <TextBox x:Name="NUserName" HorizontalAlignment="Center" Height="28" Margin="0,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="222" RenderTransformOrigin="0.498,0.429" TextChanged="NUserName_TextChanged"/>
+                <TextBox x:Name="NName" HorizontalAlignment="Left" Height="28" Margin="0,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.498,0.429" TextChanged="NName_TextChanged"/>
+                <TextBox x:Name="NPass" HorizontalAlignment="Center" Height="28" Margin="0,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="222" TextChanged="NPass_TextChanged"/>
                 <TextBox x:Name="NSecName" HorizontalAlignment="Right" Height="28" Margin="0,19,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.498,0.429" TextChanged="NSecName_TextChanged"/>
-                <Label Content="Name:" HorizontalAlignment="Left" Height="42"  Foreground="White" Margin="-6,0,0,0" VerticalAlignment="Top" Width="78" FontFamily="Microsoft Sans Serif"/>
+                <Label Content="Name:" HorizontalAlignment="Left" Height="21"  Foreground="White" Margin="-6,0,0,0" VerticalAlignment="Top" Width="74" FontFamily="Microsoft Sans Serif"/>
                 <Label Content="Secondname:" HorizontalAlignment="Left" Height="21"  Foreground="White" Margin="116,0,0,0" VerticalAlignment="Top" Width="84" FontFamily="Microsoft Sans Serif"/>
                 <Button x:Name="RegButt" Content="Register Now!" HorizontalAlignment="Center" Margin="0,168,0,0" Foreground="Black" VerticalAlignment="Top" Width="118" Height="31" FontFamily="Microsoft Sans Serif" FontWeight="DemiBold" BorderBrush="White" Background="White" Click="RegButt_Click" />
 
@@ -27,8 +27,8 @@
         <Label Content="Login to your account" HorizontalAlignment="Left" Margin="323,102,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="20" FontWeight="Bold"/>
         <Label Content="Username:" HorizontalAlignment="Left" Height="42" Margin="317,190,0,0" VerticalAlignment="Top" Width="78" FontFamily="Microsoft Sans Serif"/>
         <Label Content="Password:" HorizontalAlignment="Left" Height="42" Margin="317,239,0,0" VerticalAlignment="Top" Width="78" FontFamily="Microsoft Sans Serif"/>
-        <TextBox x:Name="LogUserName" HorizontalAlignment="Left" Height="28" Margin="323,211,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="258" TextChanged="LogUserName_TextChanged"/>
-        <TextBox x:Name="LogPassword" HorizontalAlignment="Left" Height="28" Margin="323,260,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="258" TextChanged="LogPassword_TextChanged"/>
+        <TextBox x:Name="LogUserName" HorizontalAlignment="Left" Height="28" Margin="323,211,0,0" Text="" VerticalAlignment="Top" Width="258" TextChanged="LogUserName_TextChanged" SelectionBrush="Black" InputScope="Password"/>
+        <TextBox x:Name="LogPassword" HorizontalAlignment="Left" Height="28" Margin="323,260,0,0"  VerticalAlignment="Top" Width="258" />
         <Button x:Name="LogButt" Content="LOGIN" HorizontalAlignment="Left" Margin="414,312,0,0" Foreground="White" VerticalAlignment="Top" Width="76" Height="31" FontFamily="Microsoft Sans Serif" FontWeight="DemiBold" BorderBrush="Black" Background="Black" Click="Button_Click" />
         <Button x:Name="Exit" Content="X" HorizontalAlignment="Left" Margin="578,10,0,0" VerticalAlignment="Top" BorderBrush="White" Cursor="Hand" FontFamily="Microsoft Sans Serif" Background="White" Click="Exit_Click"/>
 

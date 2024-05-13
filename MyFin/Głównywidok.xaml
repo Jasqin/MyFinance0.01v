@@ -1,0 +1,49 @@
+﻿<Window x:Class="MyFin.Głównywidok"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyFin"
+        Icon="ico.ico"
+        mc:Ignorable="d"
+        Title="Głównywidok"
+        Height="600" Width="600"  WindowStartupLocation="CenterScreen"  ResizeMode="NoResize" WindowStyle="None">
+    <Grid Height="700" ForceCursor="True" MaxHeight="600">
+        <Grid Background="Black" HorizontalAlignment="Left" Height="600" ForceCursor="True" VerticalAlignment="Center" Width="262">
+            <TextBox x:Name="UserIdTextBox" FontSize="20" HorizontalAlignment="Center" Margin="0,37,0,0" VerticalAlignment="Top" Width="200" IsReadOnly="True">
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Setter Property="Background" Value="Black"/>
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="Padding" Value="5"/>
+                        <Setter Property="FontWeight" Value="Bold"/>
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
+            <TextBox x:Name="ExpensesSumTextBox" HorizontalAlignment="Center" Margin="0,115,0,0" VerticalAlignment="Top" Width="200" IsReadOnly="True">
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Setter Property="Background" Value="Black"/>
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="Padding" Value="5"/>
+                        
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
+            <Image Margin="81,250,81,250" Source="/icons8-wallet-100.png" Stretch="Fill"/>
+
+
+
+        </Grid>
+        <Button x:Name="Exit" Content="X"  HorizontalAlignment="Right"  Margin="0,10,10,0" VerticalAlignment="Top" BorderBrush="Black" Cursor="Hand" FontFamily="Microsoft Sans Serif" Background="White" Click="Exit_Click" Height="31" Width="26"/>
+        <DataGrid x:Name="TDataGrid" HorizontalAlignment="Left" Margin="280,46,0,0" VerticalAlignment="Top" AutoGenerateColumns="True" Height="488" Width="310" Background="white" BorderThickness="2"  />
+        <Button Content="Dodaj wydatek" Click="DodajWydatekButton_Click" HorizontalAlignment="Left" Margin="72,426,0,0" Foreground="Black" FontFamily="Microsoft Sans Serif" FontWeight="DemiBold" BorderBrush="White" Background="White"  VerticalAlignment="Top" Height="39" Width="120"/>
+        <Button Content="Wyloguj się" Click="WylogujButton_Click" HorizontalAlignment="Left" Margin="72,495,0,0" Foreground="Black" FontFamily="Microsoft Sans Serif" FontWeight="DemiBold" BorderBrush="White" Background="White"  VerticalAlignment="Top" Height="39" Width="118"/>
+        <Button x:Name="Mini" Content="_"  Height="31" Width="26"  BorderThickness="1"  FontWeight="Bold" HorizontalAlignment="Left" Margin="533,10,0,0" VerticalAlignment="Top" BorderBrush="Black" Cursor="Hand" FontFamily="Microsoft Sans Serif" Background="White" Click="Mini_Click" RenderTransformOrigin="-0.861,0.493"/>
+
+
+
+    </Grid>
+</Window>
